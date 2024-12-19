@@ -25,13 +25,14 @@ Addressing these challenges necessitates the development of proactive and intell
 - **Dataset Used**: BATADAL (Battle of the Attack Detection Algorithms) dataset.
 - **Approach**: A deep neural network (DNN) is trained using labeled operational and attack scenarios.
 - **Implementation**: The model predicts attack types and triggers early warnings, enabling operators to act before an attack unfolds.
-![System Architecture](System-Design.png)
 
 ### 2. **Anomaly Detection Model**
 - **Objective**: Detect anomalies in real-time operations that could indicate cyber threats.
 - **Dataset Used**: Secure Water Treatment (SWaT) dataset.
 - **Approach**: The model integrates Long Short-Term Memory (LSTM) networks to analyze and detect deviations from normal operating conditions.
 - **Implementation**: Anomalies are flagged in real-time, enabling immediate action to contain cyber threats.
+
+![System Architecture](System-Design.png)
 
 ## Methodology
 1. **Data Collection**: Use the BATADAL and SWaT datasets for training and testing the models.
