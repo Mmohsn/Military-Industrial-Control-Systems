@@ -25,6 +25,7 @@ Addressing these challenges necessitates the development of proactive and intell
 - **Dataset Used**: BATADAL (Battle of the Attack Detection Algorithms) dataset.
 - **Approach**: A deep neural network (DNN) is trained using labeled operational and attack scenarios.
 - **Implementation**: The model predicts attack types and triggers early warnings, enabling operators to act before an attack unfolds.
+![System Architecture](images/System-Design.png)
 
 ### 2. **Anomaly Detection Model**
 - **Objective**: Detect anomalies in real-time operations that could indicate cyber threats.
